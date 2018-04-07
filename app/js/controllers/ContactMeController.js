@@ -6,7 +6,8 @@ angular.module('myApp.controllers')
         navService.setActiveTab("contactme");
 
         $scope.contactinfo = {
-            Name: '',
+            FirstName: '',
+            LastName: '',
             PhoneNumber:'',
             Email:'',
             Comments:'',
@@ -25,7 +26,8 @@ angular.module('myApp.controllers')
                     }
                 }
             });
-            $scope.contactinfo.Name= '';
+            $scope.contactinfo.FirstName= '';
+            $scope.contactinfo.LastName= '';
             $scope.contactinfo.PhoneNumber= '';
             $scope.contactinfo.Email= '';
             $scope.contactinfo.Comments= '';
